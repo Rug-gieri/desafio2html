@@ -1,30 +1,29 @@
 html, body {
     margin: 0;
 }
-body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
-}
 
 .wrapper {
-    width: 100% ;
     display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
+  
 .main {
     display: flex;
     flex-flow: column;
     width: 100%;
 }
 .menu {
-    width: 7%;
-    background-color: rgb(129, 99, 199);
+    width: 10%;
+    background-color: rgb(161, 98, 153);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(206, 104, 209);
-    min-height: 150px;
+    display: flex;
+    background-color: rgb(188, 124, 189);
+    justify-content: space-between;
+    padding: 10px 20px;
+    
 }
 .content {
     background-color: white;
@@ -34,9 +33,9 @@ body {
 .footer {
     background-color: rgb(205, 204, 209);
     min-height: 150px;
+    padding: 10px 20px;
 }
 img {
-    position: absolute;
-    right: 0px;
-    padding:;
+    height: 70px;
+    width: auto;
 }
